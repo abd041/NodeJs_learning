@@ -6,4 +6,9 @@ const sumOfNumbers =(a,b)=>{
 }
 
 
-module.exports = sumOfNumbers; 
+const multiplyOfNumbers =(a,b)=>{
+    return( console.log(`multiply of ${a} and ${b} is ${a*b}`))
+}
+
+
+module.exports = {sumOfNumbers , multiplyOfNumbers}; 

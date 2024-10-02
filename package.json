@@ -18,5 +18,8 @@
   "homepage": "https://github.com/abd041/NodeJs_learning#readme",
   "dependencies": {
     "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4"
   }
 }
