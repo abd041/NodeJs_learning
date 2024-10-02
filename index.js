@@ -6,6 +6,10 @@ const server = https.createServer()
 const readfile = fs.readFileSync("./Sample.txt" , "utf-8")
 
 console.log(readfile)
+ fs.writeFile("FileName" , "This is the file content" , ()=>{
+    console.log("file create successfully")
+})
+
 
 const { sumOfNumbers, multiplyOfNumbers } = require('./Sum');
  
