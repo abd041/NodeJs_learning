@@ -1,15 +1,9 @@
 const https = require("http");
-
 const server = https.createServer()
 
-
-// sum of two numbers
-
-const sumOfNumbers =(a,b)=>{
-    return( console.log(`sum of ${a} and ${b} is ${a + b}`))
-}
+const sumOfNumbers = require("./Sum")
  
-sumOfNumbers(0 , 50)
+sumOfNumbers(20 , 10)
 
 server.listen("5000" , ()=> console.log("server is running on port 3000"))
 
